@@ -33,6 +33,6 @@ The bash script named `run.sh` is used to compile and run your code. The command
 `run.sh <path of R file> <path of S file><sort/hash> <M>`
 
 ### Output file
-<R filename>_<S filename>_join.txt (Kindlynote it should contains only R & S base filename and not their path).
+`<R filename>_<S filename>_join.txt` (Kindlynote it should contains only R & S base filename and not their path).
  
 Use the generator folder to generate sample inputs.
