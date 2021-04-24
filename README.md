@@ -11,7 +11,7 @@ Given M memory blocks and two large relations R(X,Y)and S(Y,Z). There are iterat
   - open()- Create M1 hashed sublists for R and S
   - getnext()- For each Ri and Si thus created, loads the smaller of the two in the main memory and creates a search structure over it. Then recursively loads the other file in the remaining blocks and for each record of this file, search corresponding records (with same join attribute value) from the other file. Checks for min(B(R),B(S))<M^2
   - close()- close all files
-  - 
+  
 Join condition is (R.Y==S.Y). One block is used for output which is filled by row returned by getnext() and when it gets full, appends it to the output file and continues.
 
 ## Usage
