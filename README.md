@@ -1,5 +1,5 @@
 # Hash-Join-and-Sort-Merge-Join
-Implementation of database relations join operators - Sort Merge Join and Hash Join
+Implementation of database relations join operators - Hash Join and Sort Merge Join
 
 ## Implementation
 Given M memory blocks and two large relations R(X,Y)and S(Y,Z). There are iterators for the following operations.
